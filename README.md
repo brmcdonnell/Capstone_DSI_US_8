@@ -1,4 +1,4 @@
-# Predicting Final Year Performance
+# Predicting Final Year Performance in Collegiate Track & Field Running Events
 
 ## Background
 
@@ -12,7 +12,7 @@ Using past collegiate results, create a model that predicts the next season best
 
 The data for this project was collected from the collegiate track and field results database, <a href="https://www.tfrrs.org/" target="_blank">tfrrs</a> for the Power Five conferences (ACC, Big Ten, Big 12, Pac-12, SEC). The Scrapy library was be used to pull the information for every athlete in each of these conferences over the years tfrrs has results.
 
-Two web crawlers were written; one for High School track data, and one for collegiate data. The high school data spider was written by me, and the collegiate data scraper was written jointly by Brendan and Declan McDonnell. The high school data spider works, and was more of a proof of concept for a larger, ongoing data analysis project and was ultimately not used for this project.
+Two web crawlers were written; one for High School track data, and one for collegiate data. The high school data spider was written by me, and the collegiate data scraper was written jointly by Brendan and Declan McDonnell. The high school data spider works, and was more of a proof of concept for a larger, ongoing data analysis project. It ultimately was not used for this project, but the scraper was fun to build.
 
 **Disclaimer: This data is not going to be used in any way for commercial or promotional way. The data will not be avaialable for download, and I do not have any ownership rights of the data used in this project.**
 
@@ -35,4 +35,4 @@ To compare athletes that run different events, I had to use a normalization scal
 
 ## Conclusions
 
-From the analysis done, the value in this project lies in the accuracy of the model when predicting what an athlete "should" accomplish in the following season. Given the dataset, the model performed well. This would be a good estimate for athletes going into a final season to have a season best to shoot for for flat track events.
+From the analysis done, the value in this project lies in the accuracy of the model when predicting what an athlete "should" accomplish in the following season. Given the dataset, the model performed relatively well. This would be a good estimate for athletes going into a final season to have a season best to shoot for for flat track events.
